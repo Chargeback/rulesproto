@@ -1,0 +1,2 @@
+class MerchantRuleset < ApplicationRecord
+end

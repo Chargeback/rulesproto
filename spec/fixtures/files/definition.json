@@ -1,0 +1,20 @@
+{
+    "rules": [
+        {
+            "class": "Rules::GreaterThan",
+            "args": [
+                "foo.bar",
+                "foo.barf"
+            ],
+            "children": [
+                {
+                    "class": "Rules::LessThan",
+                    "args": [
+                        "foo.barf",
+                        "foo.bar"
+                    ]
+                }
+            ]
+        }
+    ]
+}
